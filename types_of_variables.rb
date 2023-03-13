@@ -31,5 +31,7 @@ def initilize(name, standard)
     @standard = standard #instance variable
 end
 
+#4. Global Variables -> Starts with '$' sign - It is not recommended to use global variables in a program
+$default_country = 'India'
 
 #5. Constants
