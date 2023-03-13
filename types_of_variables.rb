@@ -34,4 +34,7 @@ end
 #4. Global Variables -> Starts with '$' sign - It is not recommended to use global variables in a program
 $default_country = 'India'
 
-#5. Constants
+#5. Constants -> Always starts with a capital letter or all should be in Uppercase only - Constant's value never get changed
+ABC = 23
+
+puts ABC
