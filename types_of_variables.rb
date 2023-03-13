@@ -7,15 +7,29 @@ if a < b
     puts "a is less than b"
 else
     puts "a is greater than b"
+
 #2. Class Variables -> Always starts with double '@' sign && Class variable must be used in the class only
 class Student
-    @@student_count = 0
+    @@student_count = 0 #must be initialized before the usage in functions
+
+    def initilize(name, standard)
+        @name = name
+        @standard = standard
+    end
 
     def total_students
         @@student_count += 1
         puts "Total students are #{@@student_count}"
     end
 end
-#3. Instance Variables -> 
-#4. Global Variables -> 
+s1 = Student.new("Eshwar", "10th")
+s1.total_students
+
+#3. Instance Variables -> Always start with a single '@' sign
+def initilize(name, standard)
+    @name = name #instance variable
+    @standard = standard #instance variable
+end
+
+
 #5. Constants
