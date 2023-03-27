@@ -1,5 +1,4 @@
-<img src="/images/Ruby.png" alt="Logo" width='400'/>
-# Table of Contents :<hr>
+<img src="/images/Ruby.png" alt="Logo" width='400'/># Table of Contents :<hr>
 | Index | Description |
 --- | ---
 | 1 | [Introduction to Ruby](#Introduction-to-Ruby) |
