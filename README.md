@@ -1,4 +1,7 @@
-<img src="/images/Ruby.png" alt="Logo" width='400'/># Table of Contents :<hr>
+<img src="/images/Ruby.png" alt="Logo" width='400'/>
+
+# Table of Contents :<hr>
+
 | Index | Description |
 --- | ---
 | 1 | [Introduction to Ruby](#Introduction-to-Ruby) |
@@ -6,6 +9,7 @@
 | 3 | [DataTypes in Ruby](#DataTypes-in-Ruby) |
 | 4 | [Methods in Ruby](#Methods-in-Ruby) |
 <hr>
+
 # Introduction to Ruby
 Ruby is a dynamic, open source, object oriented and reflective programming language. Ruby is considered similar to Perl and Smalltalk programming languages. It runs on all types of platforms like Windows, Mac OS and all versions of UNIX.
 
