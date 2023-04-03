@@ -55,7 +55,9 @@ puts A.class
 
 # Ruby has 5 types of variables
 
-### 1. Local Variables : Always starts with a lowercase letter or an underscore && The scope is block level
+### 1. Local Variables : Always starts with a lowercase letter or an underscore
+
+#### The scope is block level
 ```ruby
 a = 10
 b = 12
@@ -66,7 +68,7 @@ else
     puts "a is greater than b"
 ```
 
-### 2. Class Variables : Always starts with double '@' sign && Class variable must be used in the class only
+### 2. Class Variables : Always starts with double '@' sign & Class variable must be used in the class only
 ```ruby
 class Student
     @@student_count = 0 #must be initialized before the usage in functions
