@@ -4,3 +4,7 @@ class ExampleClass
         puts 'Welcome to Ruby!'
     end
 end
+
+obj1 = ExampleClass.new
+
+obj1.print_hello
